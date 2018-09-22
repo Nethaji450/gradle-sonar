@@ -1,7 +1,7 @@
-package org.broonix.controller;
+package com.rts.controller;
 
+import com.rts.DemoStarterApplicationTests;
 import junit.framework.Assert;
-import org.broonix.DemoStarterApplicationTests;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.servlet.ModelAndView;

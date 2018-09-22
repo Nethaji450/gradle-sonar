@@ -1,4 +1,4 @@
-package org.broonix;
+package com.rts;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
