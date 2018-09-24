@@ -56,10 +56,10 @@ sonarqube {
     properties {
         property 'sonar.scm.disabled' , true
         property 'sonar.projectName', 'Gradle-Jacoco-Coverage'
-		property 'sonar.host.url', 'http://localhost:9000'
-        property 'sonar.login', 'b5e1e1bd0fe08929e91296f7777911a9de51e571'
-		//property 'sonar.login', 'balaji'
-        //property 'sonar.password', 'password'
+		property 'sonar.host.url', 'http://18.234.213.176:9000'
+        property 'sonar.login', 'f890156f8273234ed731540716d566ef3eb28d31'
+		//property 'sonar.login', 'admin'
+        //property 'sonar.password', 'admin'
     }
 }
 
@@ -100,9 +100,9 @@ publishing {
                 password 'admin123'
             }
             if (!project.version.endsWith('-SNAPSHOT')) {
-                url "http://localhost:8081/repository/maven-releases"
+                url "http://18.234.213.176:8081/repository/gradle-release"
             } else {
-                url "http://localhost:8081/repository/maven-snapshots"
+                url "http://18.234.213.176:8081/repository/gradle-snapshot"
             }
         }
     }
